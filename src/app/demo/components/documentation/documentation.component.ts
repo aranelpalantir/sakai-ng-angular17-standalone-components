@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-    templateUrl: './documentation.component.html',
-    styleUrls: ['./documentation.component.scss']
+  selector: 'app-documentation',
+  standalone: true,
+  imports: [],
+  templateUrl: './documentation.component.html',
 })
-export class DocumentationComponent { }
+export class DocumentationComponent {}
